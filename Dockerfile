@@ -74,4 +74,4 @@ WORKDIR $APP_BUNDLE_DIR/bundle
 
 # start the app
 ENTRYPOINT ["./entrypoint.sh"]
-CMD ["node", "main.js"]
+CMD ["node", "main.js", "--verbose"]
